@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>FormCheck</title>
+   <script defer src="check.js"></script>
+</head>
+
+<body>
+   <form action="" method="post">
+      <fieldset>
+         <h1>Anmeldung</h1>
+         <img src="https://open-educational-resources.de/wp-content/uploads/Anmeldung-Foto_Tim-Reckmann-CCBY40.jpg"
+            alt="Screen" width="300" height="300" />
+         <br>
+         <label for="email">
+            E-Mail
+         </label>
+         <input id="email" type="email" name="email" size="30" maxlength="70" placeholder="mail@example.com" />
+         <br>
+         <label for="password">
+            Passwort
+         </label>
+         <input id="password" type="password" name="password" size="30" maxlength="30" inputmode="Passwort"
+            placeholder="Passwort" />
+         <br>
+         <label for="website">
+            Anmelden auf
+         </label>
+         <select id="website" name="website">
+            <option value="Gmail">Gmail.com</option>
+            <option value="Web">Web.de</option>
+            <option value="GMX">GMX.de</option>
+            <option value="Ostfalia Portal">Ostfalia Portal</option>
+         </select>
+         <br>
+         <p>
+            Mehr Infos zu Forms auf
+            <a href="https://www.w3schools.com/html/html_form_elements.asp">w3schools</a>
+         </p>
+         <input type="submit" value="Daten absenden" />
+      </fieldset>
+   </form>
+</body>
+
+</html>

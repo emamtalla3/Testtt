@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TableCheck</title>
+    <style>
+        table * {
+            border: solid 1px black
+        }
+    </style>
+    <script defer src="js/test/check.js"></script>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <td></td>
+            <th>Montag</th>
+            <th>Dienstag</th>
+            <th>Mittwoch</th>
+            <th>Donnerstag</th>
+            <th>Freitag</th>
+        </thead>
+        <tr>
+            <th>8:00 Uhr</th>
+            <td rowspan="2">Sport</td>
+            <td>Frei</td>
+            <td rowspan="4">Urlaub</td>
+            <td rowspan="4">Urlaub</td>
+            <td rowspan="4">Urlaub</td>
+        </tr>
+        <tr>
+            <th>9:00 Uhr</th>
+            <td rowspan="3">Lesen</td>
+        </tr>
+        <tr>
+            <th>10:00 Uhr</th>
+            <td>Rechnen</td>
+        </tr>
+        <tr>
+            <th>11:00 Uhr</th>
+            <td>Schreiben</td>
+        </tr>
+        <tr>
+            <th>12:00 Uhr</th>
+            <td colspan="5">Mittagessen</td>
+        </tr>
+    </table>
+
+</body>
